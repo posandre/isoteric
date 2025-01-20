@@ -1,0 +1,698 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \"Quantum Esoteric\" website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 07:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: esotericism"
+
+#. Name of the theme
+msgid "\"Quantum Esoteric\" website"
+msgstr ""
+
+#: patterns/footer-quantumezoterik-3-col.php:28
+msgid "(c) 2024. Copying materials on this site is prohibited"
+msgstr ""
+
+#: patterns/footer.php:26
+msgid "(c) 2024. Copying of materials on this site is prohibited"
+msgstr ""
+
+#: functions.php:106
+msgid "A collection of full-size layouts."
+msgstr ""
+
+#: patterns/section-we-offer.php:78
+msgid "A community of like-minded people"
+msgstr ""
+
+#: inc/acf-filters.php:198
+msgid "A custom block for displaying a \"No products found\" message."
+msgstr ""
+
+#: patterns/section-expert.php:46
+msgid ""
+"A researcher in the field of conscious management of reality in embodiment "
+"is desired."
+msgstr ""
+
+#: patterns/archive-product.php:88 patterns/taxonomy-product_cat.php:70
+#: patterns/taxonomy-product_cat.php:72
+msgid "Active filters"
+msgstr ""
+
+#: inc/custom-post-types.php:12
+msgid "Add new"
+msgstr ""
+
+#: inc/custom-post-types.php:13
+msgid "Add new Review"
+msgstr ""
+
+#: patterns/reviews-query.php:24 patterns/archive-review.php:38
+msgid "Add text or blocks to be displayed when the query returns no results."
+msgstr ""
+
+#: inc/custom-post-types.php:17
+msgid "All Reviews"
+msgstr ""
+
+#: patterns/section-about-us.php:19
+msgid ""
+"An expert in the study of the impact of the quantum world on the external "
+"world of man, the founder of the \"Quantum Esoteric\" direction and the "
+"founder of the \"Magic of Strings\" Scientific and Esoteric School."
+msgstr ""
+
+#: patterns/section-expert.php:36
+msgid ""
+"An expert in the study of the influence of the quantum world on the external "
+"world of a person, the founder of the \"Quantum Esoteric\" direction and the "
+"founder of the Scientific and Esoteric School \"Magic of Strings\"."
+msgstr ""
+
+#. Author of the theme
+msgid "Andrii Postoliuk"
+msgstr ""
+
+#: patterns/archive-product.php:49 patterns/taxonomy-product_cat.php:51
+msgid "Appointment"
+msgstr ""
+
+#: patterns/section-we-offer.php:24
+msgid "Author's courses"
+msgstr ""
+
+#: inc/acf-filters.php:101
+msgid "Block showing product availability"
+msgstr ""
+
+#: inc/acf-filters.php:59
+msgid "Brief description of the product"
+msgstr ""
+
+#: inc/acf-filters.php:18
+msgid "Carousel of reviews"
+msgstr ""
+
+#: functions.php:105
+msgctxt "Category block template"
+msgid "Pages"
+msgstr ""
+
+#: inc/acf-filters.php:42
+#: template-parts/blocks/block-woocommerce-category-image.php:20
+msgid "Category main image"
+msgstr ""
+
+#: patterns/archive-product.php:132 patterns/taxonomy-product_cat.php:138
+msgid "cleaning all filters"
+msgstr ""
+
+#: template-parts/blocks/block-woocommece-no-products-found.php:35
+msgid "clearing all filters"
+msgstr ""
+
+#: patterns/section-we-offer.php:88
+msgid "Connect with people who share your interests."
+msgstr ""
+
+#: patterns/section-our-principles.php:26
+msgid "Consciousness as a creator"
+msgstr ""
+
+#: inc/custom-post-types.php:15
+msgid "Edit Review"
+msgstr ""
+
+#: patterns/section-our-preferences.php:44
+#: patterns/section-our-principles.php:52
+msgid ""
+"Everything in the universe is interconnected, and we are part of this whole."
+msgstr ""
+
+#: patterns/section-our-principles.php:70
+msgid ""
+"Everything in the world vibrates, and our thoughts and emotions are no "
+"exception."
+msgstr ""
+
+#: patterns/archive-product.php:37 patterns/archive-product.php:47
+msgid "Filter by attribute"
+msgstr ""
+
+#: patterns/archive-product.php:83 patterns/taxonomy-product_cat.php:95
+msgid "Filters"
+msgstr ""
+
+#: patterns/section-about-us.php:31
+msgid ""
+"Founder&nbsp; \"Sumerian Numerology\" direction \"Sumerian symbols and "
+"signs\" has created more than six innovative directions for working with "
+"human consciousness."
+msgstr ""
+
+#: patterns/section-we-offer.php:52
+msgid "Get personal support and answers to all your questions."
+msgstr ""
+
+#: patterns/section-expert.php:56
+msgid "Has a master's degree in economics, finance, business, psychology."
+msgstr ""
+
+#: patterns/section-about-us.php:27
+msgid ""
+"He has a master's degree in economics, finance, business, and psychology."
+msgstr ""
+
+#: patterns/404.php:30
+msgid "Home page"
+msgstr ""
+
+#: template-parts/blocks/block-woocommece-no-products-found.php:37
+msgid "home page"
+msgstr ""
+
+#: patterns/section-we-offer.php:11
+msgid "HOW CAN WE BE USEFUL TO YOU?"
+msgstr ""
+
+#: patterns/section-we-offer.php:34
+msgid ""
+"Immerse yourself in the world of quantum esoterics and learn to apply the "
+"acquired knowledge in practice."
+msgstr ""
+
+#: patterns/section-our-preferences.php:50
+msgid "Individual approach"
+msgstr ""
+
+#: patterns/section-we-offer.php:42
+msgid "Individual consultations"
+msgstr ""
+
+#: patterns/section-call-to-action.php:10
+msgid "Join us and discover new horizons of possibilities!"
+msgstr ""
+
+#: patterns/single-review.php:35 patterns/single-product.php:47
+#: patterns/archive-review.php:47
+msgid "Latest reviews"
+msgstr ""
+
+#: patterns/section-our-community.php:46
+msgid "listeners"
+msgstr ""
+
+#: functions.php:222 inc/additional-functions.php:127
+#: inc/woocommerce-filters.php:102 patterns/section-reviews-carousel.php:23
+#: patterns/section-about-us.php:44 patterns/taxonomy-product_cat.php:116
+#: template-parts/blocks/block-reviews-carousel.php:98
+msgid "More details"
+msgstr ""
+
+#: patterns/single-review.php:53 patterns/404.php:40
+#: patterns/single-product.php:105 patterns/archive-product.php:143
+msgid "New arrivals"
+msgstr ""
+
+#: patterns/taxonomy-product_cat.php:149
+msgid "new receipts"
+msgstr ""
+
+#: inc/custom-post-types.php:14
+msgid "New Review"
+msgstr ""
+
+#: inc/acf-filters.php:197
+msgid "No Products Found"
+msgstr ""
+
+#: template-parts/blocks/block-products-carousel.php:145
+msgid "No products found"
+msgstr ""
+
+#: patterns/reviews-query.php:25 patterns/archive-review.php:39
+#: template-parts/blocks/block-reviews-carousel.php:137
+msgid "No reviews found"
+msgstr ""
+
+#: inc/woocommerce-filters.php:182
+msgid "no reviews found"
+msgstr ""
+
+#: inc/custom-post-types.php:21
+msgid "No reviews were found in the trash."
+msgstr ""
+
+#: patterns/archive-product.php:128 patterns/taxonomy-product_cat.php:134
+#: template-parts/blocks/block-woocommece-no-products-found.php:33
+msgid "Nothing found"
+msgstr ""
+
+#: patterns/archive-product.php:132 patterns/taxonomy-product_cat.php:138
+msgid "or visit ours"
+msgstr ""
+
+#: template-parts/blocks/block-woocommece-no-products-found.php:36
+msgid "or visit the "
+msgstr ""
+
+#: patterns/section-our-preferences.php:11
+msgid "Our advantages"
+msgstr ""
+
+#: patterns/section-our-community.php:11 patterns/section-header.php:10
+msgid "Our community"
+msgstr ""
+
+#: patterns/section-expert.php:16
+msgid "Our expert"
+msgstr ""
+
+#: patterns/section-our-principles.php:15
+msgid "Our principles"
+msgstr ""
+
+#: patterns/section-our-preferences.php:30
+msgid ""
+"Our programs are based on the latest research in quantum physics and "
+"psychology."
+msgstr ""
+
+#: patterns/section-expert.php:12
+msgid "our team"
+msgstr ""
+
+#: patterns/404.php:16
+msgid "Page not found"
+msgstr ""
+
+#: inc/custom-post-types.php:19
+msgid "Parent Review:"
+msgstr ""
+
+#: patterns/section-about-us.php:35 patterns/section-expert.php:75
+msgid "Participant of thematic television programs."
+msgstr ""
+
+#: patterns/reviews-query.php:2
+msgctxt "Pattern description"
+msgid "Template for displaying reviews on the page."
+msgstr ""
+
+#: patterns/section-ether.php:2
+msgctxt "Pattern title"
+msgid "\"Ether\" section template"
+msgstr ""
+
+#: patterns/section-our-community.php:2
+msgctxt "Pattern title"
+msgid "\"Our community\" section template"
+msgstr ""
+
+#: patterns/section-reviews-carousel.php:2
+msgctxt "Pattern title"
+msgid "\"Reviews carousel\" section template"
+msgstr ""
+
+#: patterns/404.php:2 patterns/hidden-404.php:2
+msgctxt "Pattern title"
+msgid "404"
+msgstr ""
+
+#: patterns/section-about-us.php:2
+msgctxt "Pattern title"
+msgid "About Us Template"
+msgstr ""
+
+#: patterns/section-call-to-action.php:2
+msgctxt "Pattern title"
+msgid "Call to Action Section Template"
+msgstr ""
+
+#: patterns/footer.php:2
+msgctxt "Pattern title"
+msgid "footer"
+msgstr ""
+
+#: patterns/footer-quantumezoterik-3-col.php:2
+msgctxt "Pattern title"
+msgid "Footer page (3 columns)"
+msgstr ""
+
+#: patterns/page-home.php:2
+msgctxt "Pattern title"
+msgid "Home page template"
+msgstr ""
+
+#: patterns/section-circle-line-header.php:2
+msgctxt "Pattern title"
+msgid "Line and Circle Header Section Template"
+msgstr ""
+
+#: patterns/section-expert.php:2
+msgctxt "Pattern title"
+msgid "Our Expert section template"
+msgstr ""
+
+#: patterns/section-our-preferences.php:2
+msgctxt "Pattern title"
+msgid "Our Favorites Section Template"
+msgstr ""
+
+#: patterns/section-our-principles.php:2
+msgctxt "Pattern title"
+msgid "Our principles section template"
+msgstr ""
+
+#: patterns/page-header.php:2
+msgctxt "Pattern title"
+msgid "Page header template"
+msgstr ""
+
+#: patterns/archive-product.php:2
+msgctxt "Pattern title"
+msgid "Product archive template"
+msgstr ""
+
+#: patterns/single-product.php:2 patterns/taxonomy-product_cat.php:2
+msgctxt "Pattern title"
+msgid "Product Catalog Template"
+msgstr ""
+
+#: patterns/section-quote.php:2
+msgctxt "Pattern title"
+msgid "Quote section template"
+msgstr ""
+
+#: patterns/archive-review.php:2
+msgctxt "Pattern title"
+msgid "Reviews archive template"
+msgstr ""
+
+#: patterns/reviews-query.php:2
+msgctxt "Pattern title"
+msgid "Reviews template"
+msgstr ""
+
+#: patterns/single-review.php:2
+msgctxt "Pattern title"
+msgid "Single Review template"
+msgstr ""
+
+#: patterns/header-esotericism-3-col.php:2
+msgctxt "Pattern title"
+msgid "Site header (3 columns)"
+msgstr ""
+
+#: patterns/section-header.php:2
+msgctxt "Pattern title"
+msgid "Site Header Template"
+msgstr ""
+
+#: patterns/section-we-offer.php:2
+msgctxt "Pattern title"
+msgid "Template for the section \"We are proposing\""
+msgstr ""
+
+#: patterns/section-our-preferences.php:36
+msgid "Practical benefit"
+msgstr ""
+
+#: patterns/section-we-offer.php:60
+msgid "Practical tools"
+msgstr ""
+
+#: patterns/archive-product.php:59 patterns/taxonomy-product_cat.php:61
+msgid "Price"
+msgstr ""
+
+#: inc/acf-filters.php:138
+msgid "Product according to the review"
+msgstr ""
+
+#: inc/acf-filters.php:100
+msgid "Product availability"
+msgstr ""
+
+#: inc/acf-filters.php:76
+msgid "Product carousel"
+msgstr ""
+
+#: patterns/footer-quantumezoterik-3-col.php:24 patterns/footer.php:22
+msgid "QUANTUM ESOTERIC SHOP"
+msgstr ""
+
+#: patterns/section-about-us.php:15
+msgid "Quantum Esoterics for you with<br>Tetyana Rozhapova"
+msgstr ""
+
+#: patterns/single-product.php:39
+msgid "Related products"
+msgstr ""
+
+#: patterns/section-about-us.php:23
+msgid ""
+"Researcher in the field of conscious management of reality in the embodiment "
+"of desires."
+msgstr ""
+
+#: inc/acf-filters.php:121 inc/custom-post-types.php:9
+#: inc/custom-post-types.php:11
+msgid "Review"
+msgstr ""
+
+#: inc/acf-filters.php:159
+msgid "Review content"
+msgstr ""
+
+#: inc/woocommerce-filters.php:146 inc/custom-post-types.php:8
+#: inc/custom-post-types.php:10 patterns/section-reviews-carousel.php:11
+msgid "Reviews"
+msgstr ""
+
+#: inc/custom-post-types.php:20
+msgid "Reviews not found."
+msgstr ""
+
+#: patterns/section-our-preferences.php:22
+msgid "Scientific approach"
+msgstr ""
+
+#: inc/custom-post-types.php:18
+msgid "Search Reviews"
+msgstr ""
+
+#: patterns/single-review.php:27
+msgid "Selected product"
+msgstr ""
+
+#: patterns/single-product.php:91
+msgid "Similar products"
+msgstr ""
+
+#. Description of the theme
+msgid "Site topic about \"Esoterics\""
+msgstr ""
+
+#: patterns/archive-product.php:39 patterns/taxonomy-product_cat.php:41
+msgid "Size"
+msgstr ""
+
+#: inc/woocommerce-filters.php:200
+msgid "SKU:"
+msgstr ""
+
+#: functions.php:82
+msgid "Specify the price"
+msgstr ""
+
+#: patterns/single-product.php:31 patterns/archive-product.php:32
+#: patterns/taxonomy-product_cat.php:33
+msgid "Subcategories"
+msgstr ""
+
+#: patterns/section-our-community.php:26
+msgid "Subscribers"
+msgstr ""
+
+#: patterns/section-expert.php:30
+msgid "Tatyana Rozhapova:"
+msgstr ""
+
+#: patterns/404.php:25
+msgid ""
+"The address is entered incorrectly or such a page no longer exists on the "
+"site."
+msgstr ""
+
+#: inc/acf-filters.php:180
+msgid "The author of the review"
+msgstr ""
+
+#: inc/acf-filters.php:60
+msgid "The block displays a brief description of the product"
+msgstr ""
+
+#: inc/acf-filters.php:77
+msgid "The block displays a carousel of products."
+msgstr ""
+
+#: inc/acf-filters.php:19
+msgid "The block displays a carousel of reviews."
+msgstr ""
+
+#: inc/acf-filters.php:160
+msgid "The block displays content that matches the current review"
+msgstr ""
+
+#: inc/acf-filters.php:181
+msgid ""
+"The block displays information about the author corresponding to the current "
+"review"
+msgstr ""
+
+#: inc/acf-filters.php:122
+msgid "The block displays the current review"
+msgstr ""
+
+#: inc/acf-filters.php:43
+msgid "The block displays the main image of the category"
+msgstr ""
+
+#: inc/acf-filters.php:139
+msgid "The block outputs the product that matches the current review"
+msgstr ""
+
+#: patterns/section-expert.php:66
+msgid ""
+"The founder of the direction \"Sumerian numerology\" \"Sumerian symbols and "
+"signs\", created more than six innovative directions for working with human "
+"consciousness."
+msgstr ""
+
+#: patterns/archive-product.php:132 patterns/taxonomy-product_cat.php:138
+msgid "the main page of the store"
+msgstr ""
+
+#: patterns/section-quote.php:19
+msgid ""
+"This is not just a theory, but a practical guide to creating the desired "
+"reality. The founder of our direction, Tatyana Rodzhapova, offers an "
+"innovative approach that allows each person to reveal their potential and "
+"achieve harmony with themselves and the world around them."
+msgstr ""
+
+#: patterns/section-our-principles.php:80
+msgid "Transformation of consciousness"
+msgstr ""
+
+#: patterns/section-our-principles.php:44
+msgid "Unity of all things"
+msgstr ""
+
+#: template-parts/blocks/block-review-author.php:49
+msgid "Unknown author"
+msgstr ""
+
+#: inc/additional-functions.php:120
+#: template-parts/blocks/block-reviews-carousel.php:93
+#: template-parts/blocks/block-review-content.php:43
+msgid "Unknown review type"
+msgstr ""
+
+#: patterns/section-we-offer.php:70
+msgid "Use effective techniques to achieve your goals."
+msgstr ""
+
+#: patterns/section-our-community.php:56
+msgid "Users tools"
+msgstr ""
+
+#: patterns/section-our-principles.php:62
+msgid "Vibrations of reality"
+msgstr ""
+
+#: inc/woocommerce-filters.php:155
+msgid "Video"
+msgstr ""
+
+#: patterns/404.php:48
+msgid "View all"
+msgstr ""
+
+#: patterns/page-home.php:24 patterns/page-home.php:34
+msgid "View all "
+msgstr ""
+
+#: inc/custom-post-types.php:16
+msgid "View Review"
+msgstr ""
+
+#: patterns/section-our-community.php:36
+msgid "We already have students"
+msgstr ""
+
+#: patterns/section-ether.php:16 patterns/section-circle-line-header.php:15
+msgid "We are on the air"
+msgstr ""
+
+#: patterns/section-our-principles.php:34
+msgid "We believe that our thoughts can shape our lives."
+msgstr ""
+
+#: patterns/section-our-principles.php:88
+msgid "We can actively change our lives by changing our thoughts and beliefs."
+msgstr ""
+
+#: patterns/section-our-preferences.php:58
+msgid "We consider the unique needs of each student."
+msgstr ""
+
+#: patterns/section-our-community.php:15 patterns/section-header.php:14
+msgid "We now have such indicators"
+msgstr ""
+
+#: patterns/section-reviews-carousel.php:15
+msgid "What do our customers say about us?"
+msgstr ""
+
+#: patterns/section-we-offer.php:15
+msgid "What do we offer?"
+msgstr ""
+
+#: patterns/section-quote.php:12
+msgid "What is quantum esotericism?"
+msgstr ""
+
+#: patterns/section-our-principles.php:11
+msgid "What is the basis?"
+msgstr ""
+
+#: patterns/section-our-preferences.php:15
+msgid "Why choose us?"
+msgstr ""
+
+#: patterns/section-expert.php:84
+msgid "Winner of the \"Golden Fortune\" award"
+msgstr ""
+
+#: patterns/section-about-us.php:39
+msgid "Winner of the \"Golden Fortune\" award."
+msgstr ""
+
+#: patterns/archive-product.php:132 patterns/taxonomy-product_cat.php:138
+#: template-parts/blocks/block-woocommece-no-products-found.php:34
+msgid "You can try"
+msgstr ""
