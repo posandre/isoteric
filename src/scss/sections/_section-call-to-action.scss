@@ -1,0 +1,12 @@
+.editor-styles-wrapper .is-layout-flow .section-call-to-action, .is-layout-flow .section-call-to-action, .section-call-to-action {
+  padding: 1.75rem 0;
+  margin-block-start: 0;
+
+  & + div {
+    margin-block-start: 0;
+  }
+
+  p {
+    font-size: var(--wp--preset--font-size--large);
+  }
+}

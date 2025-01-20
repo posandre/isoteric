@@ -1,0 +1,40 @@
+.section-courses, .is-layout-flow > .section-courses, .editor-styles-wrapper .is-layout-flow > .section-courses {
+  margin-block-end: 4.75rem;
+
+  .gutena-tabs-tab {
+    padding: 0 0 0 16%;;
+  }
+
+  & >.gutena-tabs-content>.gutena-tab-block {
+    background: transparent;
+  }
+
+  .wc-block-grid__products {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .wc-block-grid.has-3-columns {
+    .wc-block-grid__products {
+      @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+      }
+    }
+    .wc-block-grid__product {
+      @media (max-width: 1145px) {
+        flex: 1 0 50%;
+        max-width: 50%;
+      }
+
+      @media (max-width: 545px) {
+        flex: 1 0 100%;
+        max-width: 100%;
+
+        padding: 0;
+      }
+    }
+  }
+}

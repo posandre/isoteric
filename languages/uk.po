@@ -1,0 +1,739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \"Quantum Esoteric\" website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-03 21:03+0000\n"
+"PO-Revision-Date: 2025-01-16 11:01+0000\n"
+"Last-Translator: Андрій постолюк\n"
+"Language-Team: Українська\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: esotericism"
+
+#. Name of the theme
+msgid "\"Quantum Esoteric\" website"
+msgstr "Сайт «Квантова езотерика»"
+
+#: patterns/footer-quantumezoterik-3-col.php:28
+msgid "(c) 2024. Copying materials on this site is prohibited"
+msgstr "(c) 2024 рік. Копіювати матеріали на цьому сайті заборонено"
+
+#: patterns/footer.php:26
+msgid "(c) 2024. Copying of materials on this site is prohibited"
+msgstr "(c) 2024. Копіювання матеріалів сайту заборонено"
+
+#: functions.php:106
+msgid "A collection of full-size layouts."
+msgstr "Колекція повнорозмірних макетів."
+
+#: patterns/section-we-offer.php:78
+msgid "A community of like-minded people"
+msgstr "Спільнота однодумців"
+
+#: inc/acf-filters.php:198
+msgid "A custom block for displaying a \"No products found\" message."
+msgstr "Спеціальний блок для відображення повідомлення «Товарів не знайдено»."
+
+#: patterns/section-expert.php:46
+msgid ""
+"A researcher in the field of conscious management of reality in embodiment "
+"is desired."
+msgstr "Дослідник у галузі свідомого управління реальністю у втіленні бажань."
+
+#: patterns/archive-product.php:88
+msgid "Active filters"
+msgstr "Активні фільтри"
+
+#: inc/custom-post-types.php:12
+msgid "Add new"
+msgstr "Додати новий"
+
+#: inc/custom-post-types.php:13
+msgid "Add new Review"
+msgstr "Додати новий відгук"
+
+#: patterns/reviews-query.php:24 patterns/archive-review.php:38
+msgid "Add text or blocks to be displayed when the query returns no results."
+msgstr ""
+"Додайте текст або блоки, які будуть відображені, коли запит не дає "
+"результатів."
+
+#: inc/custom-post-types.php:17
+msgid "All Reviews"
+msgstr "Всі відгуки"
+
+#: patterns/section-about-us.php:19
+msgid ""
+"An expert in the study of the impact of the quantum world on the external "
+"world of man, the founder of the \"Quantum Esoteric\" direction and the "
+"founder of the \"Magic of Strings\" Scientific and Esoteric School."
+msgstr ""
+"Експерт з вивчення впливу квантового світу на зовнішній світ людини, "
+"засновник напрямку “Квантова Езотерика” та засновник Науково-Езотеричної "
+"Школи “Магія струн”."
+
+#: patterns/section-expert.php:36
+msgid ""
+"An expert in the study of the influence of the quantum world on the external "
+"world of a person, the founder of the \"Quantum Esoteric\" direction and the "
+"founder of the Scientific and Esoteric School \"Magic of Strings\"."
+msgstr ""
+"Експерт з вивчення впливу квантового світу на зовнішній світ людини, "
+"засновник напрямку “Квантова Езотерика” та засновник Науково-Езотеричної "
+"Школи “Магія струн”."
+
+#. Author of the theme
+msgid "Andrii Postoliuk"
+msgstr "Андрій Постолюк"
+
+#: patterns/archive-product.php:49
+msgid "Appointment"
+msgstr "Призначення"
+
+#: patterns/section-we-offer.php:24
+msgid "Author's courses"
+msgstr "Авторські курси"
+
+#: inc/acf-filters.php:101
+msgid "Block showing product availability"
+msgstr "Блок показу наявності товару"
+
+#: inc/acf-filters.php:59
+msgid "Brief description of the product"
+msgstr "Короткий опис продукту"
+
+#: inc/acf-filters.php:18
+msgid "Carousel of reviews"
+msgstr "Карусель відгуків"
+
+#: functions.php:105
+msgctxt "Category block template"
+msgid "Pages"
+msgstr "Сторінки"
+
+#: inc/acf-filters.php:42
+#: template-parts/blocks/block-woocommerce-category-image.php:20
+msgid "Category main image"
+msgstr "Основне зображення в категорії"
+
+#: template-parts/blocks/block-woocommerce-product-stock.php:37
+msgid "Check availability"
+msgstr "Уточнюйте наявність"
+
+#: patterns/archive-product.php:132
+msgid "cleaning all filters"
+msgstr "Очистити фільтри"
+
+#: template-parts/blocks/block-woocommece-no-products-found.php:35
+msgid "clearing all filters"
+msgstr "очищення всіх фільтрів"
+
+#: patterns/section-we-offer.php:88
+msgid "Connect with people who share your interests."
+msgstr "Спілкуйтеся з людьми, які поділяють ваші інтереси."
+
+#: patterns/section-our-principles.php:26
+msgid "Consciousness as a creator"
+msgstr "Свідомість як творець"
+
+#: inc/custom-post-types.php:15
+msgid "Edit Review"
+msgstr "Редагувати відгук"
+
+#: patterns/section-our-preferences.php:44
+#: patterns/section-our-principles.php:52
+msgid ""
+"Everything in the universe is interconnected, and we are part of this whole."
+msgstr "Усе у Всесвіті взаємопов’язане, і ми є частиною цього цілого."
+
+#: patterns/section-our-principles.php:70
+msgid ""
+"Everything in the world vibrates, and our thoughts and emotions are no "
+"exception."
+msgstr "Все в світі вібрує, і наші думки та емоції не є винятком."
+
+#: patterns/archive-product.php:37 patterns/archive-product.php:47
+msgid "Filter by attribute"
+msgstr "Фільтр за атрибутом"
+
+#: patterns/archive-product.php:83
+msgid "Filters"
+msgstr "Фільтри"
+
+#: patterns/section-about-us.php:31
+msgid ""
+"Founder&nbsp; \"Sumerian Numerology\" direction \"Sumerian symbols and "
+"signs\" has created more than six innovative directions for working with "
+"human consciousness."
+msgstr ""
+"Засновник  напрямку “Шумерська нумерологія” “Шумерські символи та знаки”, "
+"створила понад шість інноваційних напрямків для роботи зі свідомістю людини."
+
+#: patterns/section-we-offer.php:52
+msgid "Get personal support and answers to all your questions."
+msgstr "Отримайте особисту підтримку та відповіді на всі ваші запитання."
+
+#: patterns/section-expert.php:56
+msgid "Has a master's degree in economics, finance, business, psychology."
+msgstr ""
+"Має магістерський ступінь в галузі економіки, фінансів, бізнесу, психології."
+
+#: patterns/section-about-us.php:27
+msgid ""
+"He has a master's degree in economics, finance, business, and psychology."
+msgstr ""
+"Має магістерський ступінь в галузі економіки, фінансів, бізнесу, психології."
+
+#: patterns/404.php:30
+msgid "Home page"
+msgstr "Головна сторінка"
+
+#: template-parts/blocks/block-woocommece-no-products-found.php:37
+msgid "home page"
+msgstr "головну сторінку"
+
+#: patterns/section-we-offer.php:11
+msgid "HOW CAN WE BE USEFUL TO YOU?"
+msgstr "ЧИМ МИ МОЖЕМ БУТИ ВАМ КОРИСНИМИ?"
+
+#: patterns/section-we-offer.php:34
+msgid ""
+"Immerse yourself in the world of quantum esoterics and learn to apply the "
+"acquired knowledge in practice."
+msgstr ""
+"Пориньте у світ квантової езотерики та навчіться застосовувати отримані "
+"знання на практиці."
+
+#: template-parts/blocks/block-woocommerce-product-stock.php:32
+msgid "In stock"
+msgstr "В наявності"
+
+#: patterns/section-our-preferences.php:50
+msgid "Individual approach"
+msgstr "Індивідуальний підхід"
+
+#: patterns/section-we-offer.php:42
+msgid "Individual consultations"
+msgstr "Індивідуальні консультації"
+
+#: patterns/section-call-to-action.php:10
+msgid "Join us and discover new horizons of possibilities!"
+msgstr "Приєднуйтесь до нас і відкривайте нові горизонти можливостей!"
+
+#: patterns/single-review.php:35 patterns/single-product.php:47
+#: patterns/archive-review.php:47
+msgid "Latest reviews"
+msgstr "Останні відгуки"
+
+#: patterns/section-our-community.php:46
+msgid "listeners"
+msgstr "слухачі"
+
+#: functions.php:222 inc/additional-functions.php:127
+#: inc/woocommerce-filters.php:102 patterns/section-reviews-carousel.php:23
+#: patterns/section-about-us.php:44
+#: template-parts/blocks/block-reviews-carousel.php:98
+msgid "More details"
+msgstr "Детальніше"
+
+#: patterns/single-review.php:53 patterns/404.php:40
+#: patterns/single-product.php:105 patterns/archive-product.php:143
+msgid "New arrivals"
+msgstr ""
+"Нові надходження\n"
+
+#: inc/custom-post-types.php:14
+msgid "New Review"
+msgstr "Новий Відгук"
+
+#: inc/acf-filters.php:197
+msgid "No Products Found"
+msgstr "Продуктів не знайдено"
+
+#: template-parts/blocks/block-products-carousel.php:145
+msgid "No products found"
+msgstr "Продукти не знайдено"
+
+#: patterns/reviews-query.php:25 patterns/archive-review.php:39
+#: template-parts/blocks/block-reviews-carousel.php:137
+msgid "No reviews found"
+msgstr "Відгуки не знайдено"
+
+#: inc/woocommerce-filters.php:182
+msgid "no reviews found"
+msgstr "відгуки не знайдено"
+
+#: inc/custom-post-types.php:21
+msgid "No reviews were found in the trash."
+msgstr "в корзині відгуки не знайдено"
+
+#: template-parts/blocks/block-woocommerce-product-stock.php:34
+msgid "Not available"
+msgstr "Не доступний"
+
+#: patterns/archive-product.php:128
+#: template-parts/blocks/block-woocommece-no-products-found.php:33
+msgid "Nothing found"
+msgstr "Нічого не знайдено"
+
+#: patterns/archive-product.php:132
+msgid "or visit ours"
+msgstr "або відвідайте наш"
+
+#: template-parts/blocks/block-woocommece-no-products-found.php:36
+msgid "or visit the "
+msgstr "або відвідайте"
+
+#: patterns/section-our-preferences.php:11
+msgid "Our advantages"
+msgstr "Наші переваги"
+
+#: patterns/section-our-community.php:11 patterns/section-header.php:10
+msgid "Our community"
+msgstr "Наша спільнота"
+
+#: patterns/section-expert.php:16
+msgid "Our expert"
+msgstr "Наш експерт"
+
+#: patterns/section-our-principles.php:15
+msgid "Our principles"
+msgstr "Наші принципи"
+
+#: patterns/section-our-preferences.php:30
+msgid ""
+"Our programs are based on the latest research in quantum physics and "
+"psychology."
+msgstr ""
+"Наші програми ґрунтуються на останніх дослідженнях в квантовій фізиці та "
+"психології."
+
+#: patterns/section-expert.php:12
+msgid "our team"
+msgstr "Наша команда"
+
+#: patterns/404.php:16
+msgid "Page not found"
+msgstr "Сторінку не знайдено"
+
+#: inc/custom-post-types.php:19
+msgid "Parent Review:"
+msgstr "Батьківський відгук"
+
+#: patterns/section-about-us.php:35 patterns/section-expert.php:75
+msgid "Participant of thematic television programs."
+msgstr "Учасниця тематичних телепередач."
+
+#: patterns/reviews-query.php:2
+msgctxt "Pattern description"
+msgid "Template for displaying reviews on the page."
+msgstr "Шаблон для відображення відгуків на сторінці."
+
+#: patterns/section-ether.php:2
+msgctxt "Pattern title"
+msgid "\"Ether\" section template"
+msgstr "Шаблон розділу «Етер»"
+
+#: patterns/section-our-community.php:2
+msgctxt "Pattern title"
+msgid "\"Our community\" section template"
+msgstr "Шаблон розділу «Наша спільнота»"
+
+#: patterns/section-reviews-carousel.php:2
+msgctxt "Pattern title"
+msgid "\"Reviews carousel\" section template"
+msgstr "Шаблон розділу «Карусель відгуків»"
+
+#: patterns/404.php:2 patterns/hidden-404.php:2
+msgctxt "Pattern title"
+msgid "404"
+msgstr "404"
+
+#: patterns/section-about-us.php:2
+msgctxt "Pattern title"
+msgid "About Us Template"
+msgstr "Шаблон секції \"Про нас\""
+
+#: patterns/section-call-to-action.php:2
+msgctxt "Pattern title"
+msgid "Call to Action Section Template"
+msgstr "Шаблон розділу \"Заклик до дії\""
+
+#: patterns/footer.php:2
+msgctxt "Pattern title"
+msgid "footer"
+msgstr "Підвал"
+
+#: patterns/footer-quantumezoterik-3-col.php:2
+#| msgid "Basement page (3 columns)"
+msgctxt "Pattern title"
+msgid "Footer page (3 columns)"
+msgstr "Підвал сторінки (3 колонки)"
+
+#: patterns/page-home.php:2
+msgctxt "Pattern title"
+msgid "Home page template"
+msgstr "Шаблон Головної сторінки"
+
+#: patterns/section-circle-line-header.php:2
+msgctxt "Pattern title"
+msgid "Line and Circle Header Section Template"
+msgstr "Шаблон \"Заголовок з лінією і колом\""
+
+#: patterns/section-expert.php:2
+msgctxt "Pattern title"
+msgid "Our Expert section template"
+msgstr "Шаблон розділу «Наш Експерт»"
+
+#: patterns/section-our-preferences.php:2
+msgctxt "Pattern title"
+msgid "Our Favorites Section Template"
+msgstr "Шаблон розділу «Наші переваги»."
+
+#: patterns/section-our-principles.php:2
+msgctxt "Pattern title"
+msgid "Our principles section template"
+msgstr "Шаблон розділу \"Наші принципи\""
+
+#: patterns/page-header.php:2
+msgctxt "Pattern title"
+msgid "Page header template"
+msgstr "Шаблон заголовка сторінки"
+
+#: patterns/archive-product.php:2
+msgctxt "Pattern title"
+msgid "Product archive template"
+msgstr "Шаблон \"Каталог продуктів\""
+
+#: patterns/single-product.php:2 patterns/taxonomy-product_cat.php:2
+msgctxt "Pattern title"
+msgid "Product Catalog Template"
+msgstr "Шаблон каталогу продуктів"
+
+#: patterns/section-quote.php:2
+msgctxt "Pattern title"
+msgid "Quote section template"
+msgstr "Шаблон секції \"Цитата\""
+
+#: patterns/archive-review.php:2
+msgctxt "Pattern title"
+msgid "Reviews archive template"
+msgstr "Шаблон сторінки \"Відгуки\""
+
+#: patterns/reviews-query.php:2
+#| msgid "Feedback template"
+msgctxt "Pattern title"
+msgid "Reviews template"
+msgstr "Шаблон відгуків"
+
+#: patterns/single-review.php:2
+msgctxt "Pattern title"
+msgid "Single Review template"
+msgstr "Шаблон сторінки \"Відгук\""
+
+#: patterns/header-esotericism-3-col.php:2
+msgctxt "Pattern title"
+msgid "Site header (3 columns)"
+msgstr "Шапка сайту (3 колонки)"
+
+#: patterns/section-header.php:2
+msgctxt "Pattern title"
+msgid "Site Header Template"
+msgstr "Заголовок сайту"
+
+#: patterns/section-we-offer.php:2
+msgctxt "Pattern title"
+msgid "Template for the section \"We are proposing\""
+msgstr "Шаблон для розділу «Що ми пропонуємо?»"
+
+#: patterns/section-our-preferences.php:36
+msgid "Practical benefit"
+msgstr "Практична користь"
+
+#: patterns/section-we-offer.php:60
+msgid "Practical tools"
+msgstr "Практичні інструменти"
+
+#: patterns/archive-product.php:59
+msgid "Price"
+msgstr "Ціна"
+
+#: inc/acf-filters.php:138
+msgid "Product according to the review"
+msgstr "Продукт за відгуком"
+
+#: inc/acf-filters.php:100
+msgid "Product availability"
+msgstr "Наявність продукту"
+
+#: inc/acf-filters.php:76
+msgid "Product carousel"
+msgstr "Карусель продуктів"
+
+#: patterns/footer-quantumezoterik-3-col.php:24 patterns/footer.php:22
+msgid "QUANTUM ESOTERIC SHOP"
+msgstr "МАГАЗИН КВАНТОВОЇ ЕЗОТЕРИКИ"
+
+#: patterns/section-about-us.php:15
+msgid "Quantum Esoterics for you with<br>Tetyana Rozhapova"
+msgstr "Квантова Езотерика для Вас з <br>Тетяною Роджаповою"
+
+#: patterns/single-product.php:39
+msgid "Related products"
+msgstr "Супутні товари"
+
+#: patterns/section-about-us.php:23
+msgid ""
+"Researcher in the field of conscious management of reality in the embodiment "
+"of desires."
+msgstr "Дослідник у галузі свідомого управління реальністю у втіленні бажань."
+
+#: inc/acf-filters.php:121 inc/custom-post-types.php:9
+#: inc/custom-post-types.php:11
+msgid "Review"
+msgstr "Відгук"
+
+#: inc/acf-filters.php:159
+msgid "Review content"
+msgstr "Контент відгуку"
+
+#: inc/woocommerce-filters.php:146 inc/custom-post-types.php:8
+#: inc/custom-post-types.php:10 patterns/section-reviews-carousel.php:11
+msgid "Reviews"
+msgstr "Відгуки"
+
+#: inc/custom-post-types.php:20
+msgid "Reviews not found."
+msgstr "Відгуки не знайдено."
+
+#: patterns/section-our-preferences.php:22
+msgid "Scientific approach"
+msgstr "Науковий підхід"
+
+#: inc/custom-post-types.php:18
+msgid "Search Reviews"
+msgstr "Пошук Відгуків"
+
+#: patterns/single-review.php:27
+msgid "Selected product"
+msgstr "Вибраний продукт"
+
+#: patterns/single-product.php:91
+msgid "Similar products"
+msgstr "Подібні продукти"
+
+#. Description of the theme
+msgid "Site topic about \"Esoterics\""
+msgstr "Сайт про «Квантову Езотерику»"
+
+#: patterns/archive-product.php:39
+msgid "Size"
+msgstr "Розмір"
+
+#: inc/woocommerce-filters.php:200
+msgid "SKU:"
+msgstr "Код:"
+
+#: functions.php:82
+msgid "Specify the price"
+msgstr "Ціну уточнюйте"
+
+#: patterns/single-product.php:31 patterns/archive-product.php:32
+msgid "Subcategories"
+msgstr "Підкатегорії"
+
+#: patterns/section-our-community.php:26
+msgid "Subscribers"
+msgstr "Підписники"
+
+#: patterns/section-expert.php:30
+msgid "Tatyana Rozhapova:"
+msgstr "Тетяна Роджапова:"
+
+#: patterns/404.php:25
+msgid ""
+"The address is entered incorrectly or such a page no longer exists on the "
+"site."
+msgstr "Адреса введена неправильно або такої сторінки на сайті більше немає."
+
+#: inc/acf-filters.php:180
+msgid "The author of the review"
+msgstr "Автор відгуку"
+
+#: inc/acf-filters.php:60
+msgid "The block displays a brief description of the product"
+msgstr "Блок показує короткий опис продукту."
+
+#: inc/acf-filters.php:77
+msgid "The block displays a carousel of products."
+msgstr "Блок показує карусель продуктів."
+
+#: inc/acf-filters.php:19
+msgid "The block displays a carousel of reviews."
+msgstr "У блоці відображається карусель відгуків."
+
+#: inc/acf-filters.php:160
+#| msgid "The block displays content that matches the current feedback"
+msgid "The block displays content that matches the current review"
+msgstr "Блок показує контент, який відповідає поточному відгуку"
+
+#: inc/acf-filters.php:181
+msgid ""
+"The block displays information about the author corresponding to the current "
+"review"
+msgstr "Блок відображає інформацію про автора, що відповідає поточному відгуку"
+
+#: inc/acf-filters.php:122
+msgid "The block displays the current review"
+msgstr "Блок показує поточний відгук"
+
+#: inc/acf-filters.php:43
+msgid "The block displays the main image of the category"
+msgstr "Блок відображає основне зображення категорії"
+
+#: inc/acf-filters.php:139
+msgid "The block outputs the product that matches the current review"
+msgstr "Блок виводить продукт, який відповідає поточному відгуку"
+
+#: patterns/section-expert.php:66
+msgid ""
+"The founder of the direction \"Sumerian numerology\" \"Sumerian symbols and "
+"signs\", created more than six innovative directions for working with human "
+"consciousness."
+msgstr ""
+"Засновник  напрямку “Шумерська нумерологія” “Шумерські символи та знаки”, "
+"створила понад шість інноваційних напрямків для роботи зі свідомістю людини."
+"\n"
+"\n"
+
+#: patterns/archive-product.php:132
+msgid "the main page of the store"
+msgstr "Головна сторінка магазину"
+
+#: patterns/section-quote.php:19
+msgid ""
+"This is not just a theory, but a practical guide to creating the desired "
+"reality. The founder of our direction, Tatyana Rodzhapova, offers an "
+"innovative approach that allows each person to reveal their potential and "
+"achieve harmony with themselves and the world around them."
+msgstr ""
+"Це не просто теорія, а практичний посібник для створення бажаної реальності. "
+"Засновник нашого напрямку Тетяна Роджапова пропонує інноваційний підхід, "
+"який дозволяє кожній людині розкрити свій потенціал і досягти гармонії з "
+"собою та навколишнім світом."
+
+#: patterns/section-our-principles.php:80
+msgid "Transformation of consciousness"
+msgstr "Трансформація свідомості"
+
+#: patterns/section-our-principles.php:44
+msgid "Unity of all things"
+msgstr "Єдність усіх речей"
+
+#: template-parts/blocks/block-review-author.php:49
+msgid "Unknown author"
+msgstr "Невідомий автор"
+
+#: inc/additional-functions.php:120
+#: template-parts/blocks/block-reviews-carousel.php:93
+#: template-parts/blocks/block-review-content.php:43
+msgid "Unknown review type"
+msgstr "Невідомий тип відгуку"
+
+#: patterns/section-we-offer.php:70
+msgid "Use effective techniques to achieve your goals."
+msgstr "Використовуйте ефективні технології для досягнення ваших цілей."
+
+#: patterns/section-our-community.php:56
+msgid "Users tools"
+msgstr "Користувачів інструментами"
+
+#: patterns/section-our-principles.php:62
+msgid "Vibrations of reality"
+msgstr "Вібрації реальності"
+
+#: inc/woocommerce-filters.php:155
+msgid "Video"
+msgstr "Відео"
+
+#: patterns/404.php:48
+msgid "View all"
+msgstr "Переглянути всі"
+
+#: patterns/page-home.php:24 patterns/page-home.php:34
+msgid "View all "
+msgstr "Переглянути всі"
+
+#: inc/custom-post-types.php:16
+msgid "View Review"
+msgstr "Переглянути відгук"
+
+#: patterns/section-our-community.php:36
+msgid "We already have students"
+msgstr ""
+"У нас вже учнів\n"
+"\n"
+
+#: patterns/section-ether.php:16 patterns/section-circle-line-header.php:15
+msgid "We are on the air"
+msgstr "Ми в ефірі"
+
+#: patterns/section-our-principles.php:34
+msgid "We believe that our thoughts can shape our lives."
+msgstr "Ми віримо, що наші думки можуть формувати наше життя."
+
+#: patterns/section-our-principles.php:88
+msgid "We can actively change our lives by changing our thoughts and beliefs."
+msgstr ""
+"Ми можемо активно змінювати своє життя, змінюючи свої думки та переконання."
+
+#: patterns/section-our-preferences.php:58
+msgid "We consider the unique needs of each student."
+msgstr "Ми враховуємо індивідуальні потреби кожного студента."
+
+#: patterns/section-our-community.php:15 patterns/section-header.php:14
+msgid "We now have such indicators"
+msgstr "У нас є такі показники."
+
+#: patterns/section-reviews-carousel.php:15
+msgid "What do our customers say about us?"
+msgstr "Що про нас говорять наші клієнти?"
+
+#: patterns/section-we-offer.php:15
+msgid "What do we offer?"
+msgstr "Що ми пропонуємо?"
+
+#: patterns/section-quote.php:12
+msgid "What is quantum esotericism?"
+msgstr "Що таке квантова езотерика?"
+
+#: patterns/section-our-principles.php:11
+msgid "What is the basis?"
+msgstr "Що в основі?"
+
+#: patterns/section-our-preferences.php:15
+msgid "Why choose us?"
+msgstr "Чому обирають саме нас?"
+
+#: patterns/section-expert.php:84
+msgid "Winner of the \"Golden Fortune\" award"
+msgstr ""
+"Лауреат премії «Золота Фортуна».\n"
+"\n"
+
+#: patterns/section-about-us.php:39
+msgid "Winner of the \"Golden Fortune\" award."
+msgstr ""
+"Лауреат премії «Золота Фортуна».\n"
+"\n"
+
+#: patterns/archive-product.php:132
+#: template-parts/blocks/block-woocommece-no-products-found.php:34
+msgid "You can try"
+msgstr "Ви можете спробувати"

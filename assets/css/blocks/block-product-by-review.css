@@ -1,0 +1,56 @@
+.editor-styles-wrapper .block-product-by-review,
+.block-product-by-review {
+  position: relative;
+}
+
+.editor-styles-wrapper .block-product-by-review__container,
+.block-product-by-review__container {
+  position: relative;
+  border: 1px solid var(--wp--preset--color--base);
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.editor-styles-wrapper .block-product-by-review__container:hover,
+.block-product-by-review__container:hover {
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+  border-color: var(--wp--preset--color--contrast-3);
+  cursor: pointer;
+}
+
+.editor-styles-wrapper .block-product-by-review__img,
+.block-product-by-review__img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 265/149;
+}
+
+.editor-styles-wrapper .block-product-by-review__title,
+.block-product-by-review__title {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin: auto;
+  background: #000000c2;
+  padding: 5px 10px;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  font-size: var(--wp--preset--font-size--ee-small);
+  text-align: center;
+  z-index: 2;
+}
+
+.editor-styles-wrapper .block-product-by-review__price,
+.block-product-by-review__price {
+  background-color: var(--wp--preset--color--base-3);
+  color: var(--wp--preset--color--contrast-3);
+  width: 100%;
+  text-align: center;
+}

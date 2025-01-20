@@ -1,0 +1,63 @@
+.section-our-preferences, .is-layout-flow .section-our-preferences {
+  background: url("../images/our-preferences-background.svg") no-repeat top left;
+  background-size: contain;
+  padding-top: 47px;
+  margin-block-end: 79px;
+
+  .wp-block-columns {
+    justify-content: space-evenly;
+
+    counter-reset: block-column-counter;
+
+    @media (max-width: 780px) {
+      gap: 3rem 2rem;
+    }
+
+    .wp-block-column {
+      max-width: 14.5833333333rem;
+
+      counter-increment: block-column-counter;
+      position: relative;
+      padding-left: 20px;
+
+      text-align: center;
+
+      @media (max-width: 780px) {
+        padding: 0;
+      }
+
+      &:before {
+        display: inline-block;
+
+        content: counter(block-column-counter);
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 100%;
+        text-align: center;
+
+        margin-bottom: 0.75rem;
+
+        border-radius: 50%;
+        background-color: var(--wp--preset--color--contrast-3);
+
+        width: 84px;
+        height: 84px;
+
+        @media (max-width: 480px) {
+          font-size: 60px;
+          width: 64px;
+          height: 64px;
+        }
+      }
+
+      hr {
+        margin-block-start: 1rem;
+      }
+
+      p {
+        margin-block-start: 0.458333333333rem;
+      }
+
+    }
+  }
+}

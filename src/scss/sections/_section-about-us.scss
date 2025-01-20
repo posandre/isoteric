@@ -1,0 +1,50 @@
+.about-us-section, .is-layout-constrained .about-us-section {
+  padding-bottom: 2.5rem;
+  margin-block-start: 0;
+
+  & > div {
+    @media (max-width: 1145px) {
+      flex-direction: column;
+    }
+  }
+
+  figure {
+    padding-top: 50px;
+  }
+
+  &__column {
+    display: flex;
+    justify-content: flex-end;
+
+    padding-top: 3.458333333333333rem;
+
+    &-content{
+      max-width: 1025px;
+    }
+  }
+
+  @media (max-width: 1145px) {
+    .wp-block-buttons {
+      justify-content: center;
+    }
+
+    .wp-block-image {
+      display: none;
+    }
+  }
+
+  .is-layout-constrained {
+
+    h1 {
+      margin-block-start: 0;
+    }
+
+    .about-us-section__column-content > *{
+      margin-block-start: 0.625rem;
+    }
+
+    .wp-block-buttons {
+      margin-block-start: 2rem;
+    }
+  }
+}

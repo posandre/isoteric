@@ -1,0 +1,202 @@
+/* Card Styles */
+
+.wc-block-grid__products .wc-block-grid__product {
+  border: none;
+  padding: 14px 18px;
+}
+
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product, .editor-styles-wrapper .product,  .wc-block-grid__products .wc-block-grid__product .product, .product{
+    &-card {
+      position: relative;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      overflow: hidden;
+
+      transition: all 0.6s;
+
+      border: 2px solid var(--wp--preset--color--base-2);
+
+      @media (max-width: 1145px) {
+        border: 1px solid var(--wp--preset--color--base-2);
+      }
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+      }
+
+      & > div {
+        margin-block-start: 0;
+      }
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        padding: 20px;
+
+        box-sizing: border-box;
+
+        background-color: #242323c9;
+
+        transform: rotateX(-90deg);
+        transform-origin: bottom;
+
+        color: var(--wp--preset--color--base-2);
+
+        transition: all 0.6s;
+
+        &-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+
+      &__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 0.833333333333rem;
+
+        gap: 5px;
+
+        @media (max-width: 800px) {
+          flex-direction: column-reverse;
+        }
+
+        a {
+          font-size: var(--wp--preset--font-size--ee-small);
+        }
+
+        & > div {
+          margin: 0 1.25rem;
+        }
+
+        a {
+          padding: 3px 0;
+        }
+
+        .wc-block-grid__product-add-to-cart {
+          margin: 0;
+        }
+
+        .wp-block-button .wp-block-button__link{
+          display: inline-block;
+
+          background-size: 25px;
+          background-color: var(--wp--preset--color--contrast-4);
+          background-position: 13px center,calc(100% - 13px) center;
+
+          border: 1px solid var(--wp--preset--color--base-2);
+          border-radius: 200px;
+
+          min-width: unset;
+          padding: 3px 50px;
+
+          font-size: var(--wp--preset--font-size--ee-small);
+        }
+      }
+
+      &:hover {
+        border-color: var(--wp--preset--color--contrast-3);
+        cursor: pointer;
+
+        .product-card__content {
+          transform: rotateX(0deg);
+          margin-block-start: 0;
+        }
+      }
+
+      .wc-block-grid__product-image, .wc-block-grid__product-price {
+        margin: 0;
+        line-height: 1.1;
+      }
+
+      .wc-block-grid__product-image {
+        width: 100%;
+        line-height: 0;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .wc-block-grid__product-price {
+        background-color: var(--wp--preset--color--base-3);
+
+        color: var(--wp--preset--color--contrast-3);
+
+        width: 100%;
+      }
+
+      .wc-block-grid__product-title {
+        font-weight: 400;
+        font-size: var(--wp--preset--font-size--medium);
+        text-align: center;
+        margin-block-start: 0;
+        margin-block-end: 10px;
+
+        &--top {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+
+          box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.8);
+          background: #000000c2;
+          padding: 10px;
+
+          z-index: 2;
+        }
+      }
+
+      .wp-block-woocommerce-product-price {
+        width: 100%;
+        margin-block-start: 0;
+      }
+
+      .product-card__description {
+        font-weight: 400;
+        font-size: var(--wp--preset--font-size--e-small);
+        line-height: 150%;
+        text-align: left;
+
+        max-width: 90%;
+
+        //@media (max-width: 800px) {
+        //  max-width: 100%;
+        //}
+      }
+    }
+}
+
+.editor-styles-wrapper {
+  li.block-editor-block-list__layout {
+    .product-card {
+      cursor: pointer;
+      &__content {
+        transform: rotateX(0deg);
+        margin-block-start: 0;
+      }
+    }
+  }
+}
+
+
+
+
+

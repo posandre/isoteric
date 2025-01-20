@@ -1,0 +1,41 @@
+.editor-styles-wrapper .block-review-author,
+.block-review-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+.editor-styles-wrapper .block-review-author__photo img,
+.block-review-author__photo img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.editor-styles-wrapper .block-review-author__info,
+.block-review-author__info {
+  margin: 10px 0 0 0;
+}
+
+.editor-styles-wrapper .block-review-author__name,
+.editor-styles-wrapper .block-review-author__role,
+.block-review-author__name,
+.block-review-author__role {
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .editor-styles-wrapper .block-review-author__photo img,
+  .block-review-author__photo img {
+    width: 68px;
+    height: 68px;
+  }
+}

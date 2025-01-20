@@ -1,0 +1,27 @@
+.wp-block-button__link, .wp-block-add-to-cart-form .single_add_to_cart_button {
+  background-image: url('../images/button-background-left.svg'), url('../images/button-background-right.svg');
+  background-color: var(--wp--preset--color--contrast-4);
+  background-position: 1rem center, calc(100% - 1rem) center;
+  background-size: 2.5rem 2.08333333333rem;
+  background-repeat: no-repeat;
+
+  min-width: 16.4166666667rem;
+
+  text-decoration: none;
+
+
+  border-radius: 200px;
+  border: 1px solid var(--wp--preset--color--base-2);
+
+  font-family: var(--wp--preset--font-family--body);
+  font-size: var(--wp--preset--font-size--small);
+  color: var(--wp--preset--color--base-2);
+
+  padding: 0.6rem 4.33333333333rem 0.6rem 4.33333333333rem;
+
+  transition: all .15s ease-in 0s;
+
+  &:hover {
+    background-color: var(--wp--preset--color--base-3);
+  }
+}

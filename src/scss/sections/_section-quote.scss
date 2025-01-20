@@ -1,0 +1,26 @@
+.section-quote {
+  blockquote {
+    padding: 2rem;
+
+    border: 1px solid var(--wp--preset--color--contrast-8);
+  }
+
+  &__container {
+    @media (max-width: 1327px) {
+      flex-direction: column-reverse;
+
+      .wp-block-quote {
+        flex-basis: 100%;
+        max-width: 618px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      flex-wrap: wrap;
+
+      & > * {
+        width: 100%;
+      }
+    }
+  }
+}

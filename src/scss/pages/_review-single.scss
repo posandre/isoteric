@@ -1,0 +1,45 @@
+.editor-styles-wrapper .single-review, .single-review {
+  .products__cols.wp-block-columns:not(.is-not-stacked-on-mobile) .products__col--products-container {
+    padding-top: 68px;
+  }
+
+  .products__cols.wp-block-columns {
+    @media (max-width: 781px) {
+      flex-direction: column-reverse;
+    }
+
+    &:not(.is-not-stacked-on-mobile) .products__col--filter {
+      @media (max-width: 781px) {
+        position: relative;
+        display: block;
+
+        height: auto;
+
+        border-right: none;
+      }
+
+      @media (max-width: 600px) {
+        padding-left: 0;
+        padding-right: 0;
+
+        width: 100%;
+      }
+
+      .filter-sections {
+        @media (max-width: 781px) {
+          max-width: calc(70% + 92px);
+        }
+
+        @media (max-width: 600px) {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .section-group.has-background {
+    @media (max-width: 781px) {
+      margin-block-start: 0;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+body, body.editor-styles-wrapper {
+  .wp-block-query-pagination, .wp-block-query-pagination.block-editor-block-list__layout {
+    margin-block-start: 3.33333333333rem;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & > a {
+      color: var(--wp--preset--color--base-2);
+
+      &:hover {
+        color: var(--wp--preset--color--contrast-3);
+      }
+    }
+
+    a {
+      text-decoration: none;
+      margin: 0;
+    }
+
+    &-numbers {
+      display: flex;
+      gap: 0.833333333333rem;
+
+      margin: 0;
+
+      & > * {
+        width: 1.66666666667rem;
+        height: 1.66666666667rem;
+
+        text-align: center;
+
+        line-height: 1.66666666667rem;
+
+        font-size: 0.75rem;
+      }
+
+      span {
+        background-color: var(--wp--preset--color--contrast-3);
+      }
+
+      a {
+        background-color: var(--wp--preset--color--contrast-7);
+
+        border: 1px solid var(--wp--preset--color--contrast-8);
+
+        color: var(--wp--preset--color--base-2);
+
+        transition: all 0.4s ease;
+
+        &:hover {
+          background-color: var(--wp--preset--color--contrast-3);
+        }
+      }
+    }
+  }
+}

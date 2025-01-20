@@ -1,0 +1,19 @@
+.editor-styles-wrapper .is-layout-flow .section-ether, .section-ether, .is-layout-flow .section-ether {
+  margin-block-start: 3.25rem;
+  margin-block-end: 4.25rem;
+
+  padding: 0;
+
+  &, .wp-block-group {
+    margin-left: 0!important;
+    margin-right: 0!important;
+  }
+
+  &.section-group--minus-top-margin {
+    margin-block-start: -30px;
+  }
+
+  .wp-block-image {
+    padding: 0 20px;
+  }
+}

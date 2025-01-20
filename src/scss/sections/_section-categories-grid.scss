@@ -1,0 +1,91 @@
+.section-categories-grid {
+  .wc-block-product-categories-list {
+    padding-left: 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33333% - .83333em), 1fr));
+    gap: 1.25em;
+
+
+    font-size: var(--wp--preset--font-size--small);
+
+    @media (max-width: 1460px) {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    &-item {
+      margin-left: 0;
+      //flex: 0 0 calc(100%/3 - 1.25em/2);
+      //max-width: calc(100%/3 - 1.25em/2);
+      max-width: var(--wp--style--global--content-size);
+
+      border: 2px solid var(--wp--preset--color--base-2);
+
+      transition: all .6s;
+
+      &:hover {
+        border-color: var(--wp--preset--color--contrast-3);
+        cursor: pointer;
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(255, 255, 255, .2);
+      }
+
+      & > a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+        //height: 260px;
+
+        text-decoration: none;
+      }
+
+      &__image {
+        //position: absolute;
+        //top:0;
+        //left:0;
+
+        margin: 0;
+
+        max-width: unset;
+        //height: 260px;
+
+        overflow: hidden;
+
+        border: none;
+
+        object-fit: cover;
+        aspect-ratio: auto 411 / 260;
+
+        img {
+          width: 100%;
+          height: 100%;
+         //min-height: 260px;
+        }
+      }
+
+      &__name {
+        position: absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin: auto;
+
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.8);
+        background: #000000c2;
+        padding: 10px;
+
+        color: var(--wp--preset--color--base-2);
+        text-align: center;
+
+        width: fit-content;
+        height: fit-content;
+
+        z-index: 2;
+      }
+    }
+  }
+}

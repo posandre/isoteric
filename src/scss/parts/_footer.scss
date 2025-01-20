@@ -1,0 +1,129 @@
+.editor-styles-wrapper footer, footer, .is-layout-flow footer {
+  margin-block-start: 0;
+}
+
+.footer-section {
+  .wp-block-navigation {
+    &__container {
+      gap: 10px;
+
+      @media (max-width: 1145px) {
+        flex-direction: row;
+      }
+    }
+
+    &-item {
+      color: var(--wp--preset--color--contrast-3);
+
+      p {
+        margin: 0;
+
+
+      }
+
+      a, p {
+        position: relative;
+
+        border-bottom: 1px solid transparent;
+
+        font-size: var(--wp--preset--font-size--e-small);
+        line-height: 1;
+
+        transition: all ease 0.5s;
+
+        &:before {
+          content: "";
+          position: absolute;
+          top: 60%;
+          left: 50%;
+          width: 0;
+          height: 100%;
+          border-bottom: 1px solid var(--wp--preset--color--contrast-3);
+          transition: all 0.4s ease;
+          transform: translate(-50%, -50%);
+        }
+
+        &:hover {
+          color: var(--wp--preset--color--contrast-3);
+
+          &:before {
+            width: 100%;
+          }
+        }
+      }
+
+      &.current-menu-item {
+        a, p {
+          border-color: var(--wp--preset--color--contrast-3);
+
+          &:hover {
+            &:before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .wp-block-group {
+    p {
+      margin-block-start: 10px;
+
+      &:first-child {
+        margin-block-start: 0;
+      }
+    }
+  }
+
+  .site-info-col {
+    .wp-block-group {
+      gap: 10px;
+
+      @media (max-width: 1145px) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .wp-block-social-links {
+    margin-inline-start: 0;
+  }
+
+  .wp-block-site-logo {
+    @media (max-width: 1145px) {
+      width: 80px;
+    }
+  }
+
+  & > .wp-block-columns {
+    @media (max-width: 1145px) {
+      flex-direction: column;
+
+      padding: 20px 0 40px 0;
+
+      & > div {
+        display: flex;
+        justify-content: center;
+      }
+
+      .site-info-col {
+        order: 1;
+
+        & > div {
+          flex-direction: column;
+        }
+      }
+
+      .social-col {
+        order: 2;
+      }
+
+      .menu-col {
+        order: 3;
+
+        margin-block-start: 20px;
+      }
+    }
+  }
+}

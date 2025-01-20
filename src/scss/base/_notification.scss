@@ -1,0 +1,19 @@
+body {
+  &, .editor-styles-wrapper {
+    .wc-block-components-notice-banner.is-info {
+      align-items: center;
+
+      background: var(--wp--preset--color--contrast-10);
+      color: #999999;
+      border-color: #d39857;
+    }
+  }
+}
+
+.wc-block-components-notice-banner.is-info {
+  align-items: center;
+
+  background: var(--wp--preset--color--contrast-10);
+  color: #999999;
+  border-color: #d39857;
+}

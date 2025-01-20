@@ -1,0 +1,29 @@
+
+.editor-styles-wrapper .block-review-author, .block-review-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px 0;
+
+  &__photo {
+    img {
+      border-radius: 50%;
+      overflow: hidden;
+
+      @media (max-width: 600px) {
+        width: 68px;
+        height: 68px;
+      }
+    }
+  }
+
+  &__info {
+    margin: 10px 0 0 0;
+  }
+
+  &__name, &__role {
+    margin: 0;
+    text-align: center;
+  }
+}

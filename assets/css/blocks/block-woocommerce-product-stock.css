@@ -1,0 +1,84 @@
+.product-stock__container,
+.is-layout-constrained .product-stock__container,
+.editor-styles-wrapper .product-stock__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+}
+
+.product-stock__container span,
+.is-layout-constrained .product-stock__container span,
+.editor-styles-wrapper .product-stock__container span {
+  border: .7px solid #078548;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  color: #078549;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 6px 14px 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.product-stock__container span:after,
+.is-layout-constrained .product-stock__container span:after,
+.editor-styles-wrapper .product-stock__container span:after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+
+.product-stock__container .in-stock,
+.is-layout-constrained .product-stock__container .in-stock,
+.editor-styles-wrapper .product-stock__container .in-stock {
+  border: 1px solid #078548;
+  color: #078548;
+}
+
+.product-stock__container .in-stock:after,
+.is-layout-constrained .product-stock__container .in-stock:after,
+.editor-styles-wrapper .product-stock__container .in-stock:after {
+  background: #078548;
+}
+
+.product-stock__container .out-stock,
+.is-layout-constrained .product-stock__container .out-stock,
+.editor-styles-wrapper .product-stock__container .out-stock {
+  border: 1px solid #ce2e2e;
+  color: #ce2e2e;
+}
+
+.product-stock__container .out-stock:after,
+.is-layout-constrained .product-stock__container .out-stock:after,
+.editor-styles-wrapper .product-stock__container .out-stock:after {
+  background: #ce2e2e;
+}
+
+.product-stock__container .unknown-stock,
+.is-layout-constrained .product-stock__container .unknown-stock,
+.editor-styles-wrapper .product-stock__container .unknown-stock {
+  border: 1px solid #ffff00c9;
+  color: #ffff00c9;
+}
+
+.product-stock__container .unknown-stock:after,
+.is-layout-constrained .product-stock__container .unknown-stock:after,
+.editor-styles-wrapper .product-stock__container .unknown-stock:after {
+  background: #ffff00c9;
+}

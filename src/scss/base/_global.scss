@@ -1,0 +1,127 @@
+html {
+  font-size: 24px;
+
+  @media (max-width: 1460px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 1145px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 14px;
+  }
+}
+
+.is-layout-constrained .wp-block-image, .wp-block-image {
+  &.front-background {
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    img {
+      position: absolute;
+      left: 0;
+      width: 100%;
+
+      z-index: 1;
+
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    &--top img {
+      top: 0;
+    }
+
+    &--bottom img {
+      bottom: 0;
+      opacity: 0.5;
+    }
+  }
+}
+
+main {
+  &, &.block-editor-block-list__block {
+    margin-block-start: 0;
+  }
+}
+
+select, .woocommerce.wc-block-catalog-sorting select.orderby{
+  background: var(--wp--preset--color--base-3);
+  font-size: var(--wp--preset--font-size--ee-small);
+  color: white;
+
+  padding: 10px;
+
+  border: 1px solid #6c6969;
+}
+
+.wp-block-group > div {
+  z-index: 2;
+}
+
+.wp-block-query--main {
+  .is-layout-constrained > * {
+    margin-block-start: 1rem;
+  }
+}
+
+header + div , header + main{
+  margin-block-start: 0;
+}
+
+.is-layout-constrained .page__container, .page__container {
+  margin-block-start: 0;
+
+  & > .wp-block-query {
+    margin-block-start: 3.33333333333rem;
+  }
+}
+
+blockquote {
+  line-height: 1.5;
+  margin: 20px 0;
+  padding: 20px;
+  quotes: "“" "”" "‘" "’";
+
+  &:before, &:after {
+    font-family: 'Georgia', serif;
+
+    font-size: 3rem;
+    line-height: 0;
+    color: var(--wp--preset--color--contrast-8);
+  }
+
+  &:before {
+    content: open-quote;
+    vertical-align: -0.4rem;
+
+    margin-right: 10px;
+  }
+
+  &:after {
+    content: close-quote;
+    vertical-align: -2rem;
+
+    margin-left: 10px;
+  }
+
+  p {
+    display: inline;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0;
+  }
+}
+
+.has-base-2-background-color {
+  *:not(a) {
+    color: var(--wp--preset--color--base);
+  }
+}
+
+.woocommerce-hide-filters [data-block-name="woocommerce/filter-wrapper"] {
+  display: none;
+}

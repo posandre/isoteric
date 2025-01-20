@@ -1,0 +1,5 @@
+.no-products-found,
+.is-layout-constrained .no-products-found,
+.editor-styles-wrapper .no-products-found {
+  text-align: center;
+}

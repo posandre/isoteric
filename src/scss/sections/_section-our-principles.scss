@@ -1,0 +1,12 @@
+.editor-styles-wrapper .is-layout-flow .section-our-principles, .section-our-principles, .is-layout-flow .section-our-principles {
+  margin-block-start: 79px;
+
+  .wp-block-columns {
+    justify-content: space-evenly;
+
+    .wp-block-column {
+      flex-basis: 14.5833333333rem;
+      max-width: 14.5833333333rem;
+    }
+  }
+}

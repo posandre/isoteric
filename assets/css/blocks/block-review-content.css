@@ -1,0 +1,23 @@
+.editor-styles-wrapper .block-review-content,
+.block-review-content {
+  max-width: 70%;
+  background-color: var(--wp--preset--color--contrast-10);
+  padding: 6px 30px;
+  margin: 0 auto;
+  font-size: var(--wp--preset--font-size--small);
+}
+
+.editor-styles-wrapper .block-review-content iframe,
+.block-review-content iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin: 24px 0;
+}
+
+@media (max-width: 600px) {
+  .editor-styles-wrapper .block-review-content,
+  .block-review-content {
+    max-width: unset;
+  }
+}
