@@ -581,12 +581,11 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  /*padding: 20px;*/
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #242323c9;
-  -webkit-transform: rotateX(-90deg);
-          transform: rotateX(-90deg);
+  /*background-color: #242323c9;*/
+  /*transform: rotateX(-90deg);*/
   -webkit-transform-origin: bottom;
       -ms-transform-origin: bottom;
           transform-origin: bottom;
@@ -611,10 +610,24 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
           align-items: center;
 }
 
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card__content-container,
+.editor-styles-wrapper .product-card__content-container,
+.wc-block-grid__products .wc-block-grid__product .product-card__content-container,
+.product-card__content-container {
+  width: 100%;
+  height: 100%;
+}
+
 .editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card__buttons,
 .editor-styles-wrapper .product-card__buttons,
 .wc-block-grid__products .wc-block-grid__product .product-card__buttons,
 .product-card__buttons {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-margin-before: 0 !important;
+          margin-block-start: 0 !important;
+  gap: 0 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -624,8 +637,8 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 0.833333333333rem;
-  gap: 5px;
+  /*margin-top: 0.833333333333rem;*/
+  /*gap: 5px;*/
 }
 
 .editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card__buttons a,
@@ -639,7 +652,7 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
 .editor-styles-wrapper .product-card__buttons > div,
 .wc-block-grid__products .wc-block-grid__product .product-card__buttons > div,
 .product-card__buttons > div {
-  margin: 0 1.25rem;
+  /* margin: 0 1.25rem;*/
 }
 
 .editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card__buttons a,
@@ -653,6 +666,7 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
 .editor-styles-wrapper .product-card__buttons .wc-block-grid__product-add-to-cart,
 .wc-block-grid__products .wc-block-grid__product .product-card__buttons .wc-block-grid__product-add-to-cart,
 .product-card__buttons .wc-block-grid__product-add-to-cart {
+  display: none;
   margin: 0;
 }
 
@@ -660,7 +674,8 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
 .editor-styles-wrapper .product-card__buttons .wp-block-button .wp-block-button__link,
 .wc-block-grid__products .wc-block-grid__product .product-card__buttons .wp-block-button .wp-block-button__link,
 .product-card__buttons .wp-block-button .wp-block-button__link {
-  display: inline-block;
+  display: none;
+  /*display: inline-block;*/
   background-size: 25px;
   background-color: var(--wp--preset--color--contrast-4);
   background-position: 13px center, calc(100% - 13px) center;
@@ -669,6 +684,27 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
   min-width: unset;
   padding: 3px 50px;
   font-size: var(--wp--preset--font-size--ee-small);
+}
+
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card__details,
+.editor-styles-wrapper .product-card__details,
+.wc-block-grid__products .wc-block-grid__product .product-card__details,
+.product-card__details {
+  margin: 0;
+  z-index: 2;
+}
+
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card__details,
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card__details a,
+.editor-styles-wrapper .product-card__details,
+.editor-styles-wrapper .product-card__details a,
+.wc-block-grid__products .wc-block-grid__product .product-card__details,
+.wc-block-grid__products .wc-block-grid__product .product-card__details a,
+.product-card__details,
+.product-card__details a {
+  width: 100%;
+  height: 100%;
+  color: transparent;
 }
 
 .editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card:hover,
@@ -739,9 +775,13 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
           margin-block-end: 10px;
 }
 
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card .wc-block-grid__product-title,
 .editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card .wc-block-grid__product-title--top,
+.editor-styles-wrapper .product-card .wc-block-grid__product-title,
 .editor-styles-wrapper .product-card .wc-block-grid__product-title--top,
+.wc-block-grid__products .wc-block-grid__product .product-card .wc-block-grid__product-title,
 .wc-block-grid__products .wc-block-grid__product .product-card .wc-block-grid__product-title--top,
+.product-card .wc-block-grid__product-title,
 .product-card .wc-block-grid__product-title--top {
   position: absolute;
   top: 10px;
@@ -766,11 +806,21 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
 .editor-styles-wrapper .product-card .product-card__description,
 .wc-block-grid__products .wc-block-grid__product .product-card .product-card__description,
 .product-card .product-card__description {
+  display: none;
   font-weight: 400;
   font-size: var(--wp--preset--font-size--e-small);
   line-height: 150%;
   text-align: left;
   max-width: 90%;
+}
+
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card .wp-block-read-more,
+.editor-styles-wrapper .product-card .wp-block-read-more,
+.wc-block-grid__products .wc-block-grid__product .product-card .wp-block-read-more,
+.product-card .wp-block-read-more {
+  color: transparent;
+  width: 100%;
+  height: 100%;
 }
 
 .editor-styles-wrapper li.block-editor-block-list__layout .product-card {
