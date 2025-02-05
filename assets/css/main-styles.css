@@ -1074,6 +1074,7 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
   opacity: 0;
   -webkit-transition: opacity 1s ease;
   transition: opacity 1s ease;
+  pointer-events: none;
 }
 
 .section-we-offer__content.has-global-padding,
@@ -2749,6 +2750,14 @@ footer,
   .is-layout-flow .page__wrapper .info-page__container,
   .info-page__container {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 890px) {
+  .editor-styles-wrapper .wp-block-woocommerce-product-image-gallery .woocommerce-product-gallery .woocommerce-product-gallery__image,
+  .woocommerce .product .page__wrapper .wp-block-woocommerce-product-image-gallery .woocommerce-product-gallery .woocommerce-product-gallery__image {
+    width: 100%;
+    height: auto;
   }
 }
 

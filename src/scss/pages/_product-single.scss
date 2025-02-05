@@ -138,6 +138,11 @@
         width: 512px;
         height: 512px;
         overflow: hidden;
+
+        @media (max-width: 890px) {
+          width: 100%;
+          height: auto;
+        }
       }
 
       .woocommerce-product-gallery__wrapper {

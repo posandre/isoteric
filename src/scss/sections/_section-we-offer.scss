@@ -21,6 +21,8 @@
 
     transition: opacity 1s ease;
 
+    pointer-events: none;
+
     &.has-global-padding {
       margin-block-start: 0;
       padding: 20px;
