@@ -113,7 +113,11 @@ function esotericism_get_review($review_id) {
 			$output .= '<p class="cut-text">' . get_field( 'review_text', $review_id ) . '</p>';
 			break;
 		case 'video':
-			$output .= get_field( 'review_video', $review_id );
+            $video_embed = get_field('review_video', $review_id);
+            $video_embed = str_replace('https://www.youtube.com/embed/', 'https://www.youtube-nocookie.com/embed/', $video_embed);
+
+            $output .= $video_embed;
+
 			break;
 
 		default:

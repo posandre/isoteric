@@ -62,6 +62,22 @@
   padding: 10px;
 }
 
+.editor-styles-wrapper .block-products-carousel .products-carousel__item del,
+.block-products-carousel .products-carousel__item del {
+  color: var(--wp--preset--color--base-2);
+  text-decoration: none;
+}
+
+.editor-styles-wrapper .block-products-carousel .products-carousel__item del bdi,
+.block-products-carousel .products-carousel__item del bdi {
+  text-decoration: line-through;
+}
+
+.editor-styles-wrapper .block-products-carousel .products-carousel__item ins,
+.block-products-carousel .products-carousel__item ins {
+  text-decoration: none;
+}
+
 .editor-styles-wrapper .block-products-carousel .products-carousel__item-container,
 .block-products-carousel .products-carousel__item-container {
   position: relative;

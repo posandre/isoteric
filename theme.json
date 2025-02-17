@@ -171,6 +171,11 @@
 					"slug": "contrast-10"
 				},
 				{
+					"color": "#794D20",
+					"name": "Contrast / Eleven",
+					"slug": "contrast-11"
+				},
+				{
 					"color": "transparent",
 					"name": "Transparent",
 					"slug": "transparent"

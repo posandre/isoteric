@@ -73,7 +73,7 @@ $reviews = get_posts($args);
                             </div>
                         <?php endif; ?>
                         <div class="reviews-carousel__author">
-                            <h4 class="reviews-carousel__author-name"><?php echo $review_author  ?></h4>
+                            <div class="reviews-carousel__author-name"><?php echo $review_author  ?></div>
                             <?php if (!empty($review_author_role)) : ?>
                                 <p class="reviews-carousel__author-role"><?php echo $review_author_role;?></p>
                             <?php endif; ?>
@@ -86,7 +86,9 @@ $reviews = get_posts($args);
                                 echo '<p data-cut-height="264" class="cut-text">' . get_field('review_text', $review->ID) .'</p>';
                                 break;
                             case 'video':
-                                echo get_field('review_video', $review->ID);
+                                $video_embed = get_field('review_video', $review->ID);
+                                $video_embed = str_replace('https://www.youtube.com/embed/', 'https://www.youtube-nocookie.com/embed/', $video_embed);
+                                echo $video_embed;
                                 break;
 
                             default:
@@ -111,7 +113,7 @@ $reviews = get_posts($args);
     ?>
         <script>
             jQuery( document ).ready(function($) {
-                $('#<?php echo esc_attr($id); ?>').owlCarousel({
+                jQuery('#<?php echo esc_attr($id); ?>').owlCarousel({
                     loop: true,
                     margin: 10,
                     nav: true,
@@ -129,9 +131,24 @@ $reviews = get_posts($args);
                         1460: {
                             items: <?php echo $reviews_display_count; ?>
                         }
+                    },
+                    onInitialized: function () {
+                        fixOwlNavButtons();
                     }
                 });
             });
+            function fixOwlNavButtons() {
+                jQuery('#<?php echo esc_attr($id); ?>').find('.owl-prev, .owl-next').each(function () {
+                    let $btn = jQuery(this);
+                    $btn.removeAttr('role');
+
+                    if ($btn.hasClass('owl-prev')) {
+                        $btn.attr('aria-label', '<?php _e('Попередній слайд','esotericism'); ?>');
+                    } else if ($btn.hasClass('owl-next')) {
+                        $btn.attr('aria-label', '<?php _e('Наступний слайд','esotericism'); ?>');
+                    }
+                });
+            }
         </script>
     <?php else:; ?>
         <?php _e('No reviews found', 'esotericism'); ?>

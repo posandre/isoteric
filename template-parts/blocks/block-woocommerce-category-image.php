@@ -17,7 +17,7 @@ if ( !empty($image_id) ) {
 } elseif ((is_page() ) && has_post_thumbnail(get_the_ID()) ) {
 	$image = get_the_post_thumbnail(get_the_ID(), 'block-woocommerce-category-img');
 } else {
-    $image = '<img src="' . get_template_directory_uri(). '/assets/images/category-default-background.jpg" alt="' . __('Category main image', 'esotericism') . '" />';
+    $image = '<img src="' . get_template_directory_uri(). '/assets/images/category-default-background.webp" alt="' . __('Category main image', 'esotericism') . '" />';
 }
 ?>
 

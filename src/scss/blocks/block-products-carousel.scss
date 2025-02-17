@@ -57,6 +57,21 @@
 
       padding: 10px;
 
+      del {
+        color: var(--wp--preset--color--base-2);
+
+        text-decoration: none;
+
+        bdi {
+          text-decoration: line-through;
+        }
+      }
+
+      ins {
+        text-decoration: none;
+      }
+
+
       &-container {
         position: relative;
 

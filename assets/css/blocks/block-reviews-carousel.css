@@ -60,7 +60,9 @@
 .editor-styles-wrapper .reviews-carousel__author-name,
 .reviews-carousel__author-name {
   margin: 0;
+  font-family: var(--wp--preset--font-family--heading);
   font-size: var(--wp--preset--font-size--medium);
+  line-height: 1.25;
 }
 
 .editor-styles-wrapper .reviews-carousel__author-role,
@@ -116,8 +118,9 @@
 .editor-styles-wrapper .reviews-carousel__link,
 .reviews-carousel__link {
   font-size: var(--wp--preset--font-size--ee-small);
-  color: var(--wp--preset--color--contrast-3);
+  color: var(--wp--preset--color--contrast-11);
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .editor-styles-wrapper .reviews-carousel .owl-nav button.owl-prev,

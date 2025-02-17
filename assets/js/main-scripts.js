@@ -54,3 +54,33 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const lazyBackgrounds = document.querySelectorAll('.lazy-bg');
+  const lazyLoadBackground = element => {
+    const bgUrl = element.getAttribute('data-bg');
+    if (bgUrl) {
+      element.style.backgroundImage = `url(${bgUrl})`;
+      element.classList.add('loaded');
+    }
+  };
+  if ('IntersectionObserver' in window) {
+    let observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          lazyLoadBackground(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+    lazyBackgrounds.forEach(bg => observer.observe(bg));
+  } else {
+    lazyBackgrounds.forEach(lazyLoadBackground); // Fallback для старих браузерів
+  }
+  const div = document.querySelector('.wp-block-wpm-language-switcher');
+  const li = document.createElement('li');
+  li.classList.add(...div.classList);
+  while (div.firstChild) {
+    li.appendChild(div.firstChild);
+  }
+  div.parentNode.replaceChild(li, div);
+});

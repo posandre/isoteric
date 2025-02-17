@@ -119,7 +119,7 @@ $products = get_posts($args);
         ?>
         <script>
             jQuery( document ).ready(function($) {
-                $('#<?php echo esc_attr($id); ?>').owlCarousel({
+                jQuery('#<?php echo esc_attr($id); ?>').owlCarousel({
                     loop: true,
                     margin: 10,
                     nav: true,
@@ -137,9 +137,25 @@ $products = get_posts($args);
                         1460: {
                             items: <?php echo $products_display_count; ?>
                         }
+                    },
+                    onInitialized: function () {
+                        fixOwlNavButtons();
+                    }
+                })
+            });
+
+            function fixOwlNavButtons() {
+                jQuery('#<?php echo esc_attr($id); ?>').find('.owl-prev, .owl-next').each(function () {
+                    let $btn = jQuery(this);
+                    $btn.removeAttr('role');
+
+                    if ($btn.hasClass('owl-prev')) {
+                        $btn.attr('aria-label', '<?php _e('Попередній слайд','esotericism'); ?>');
+                    } else if ($btn.hasClass('owl-next')) {
+                        $btn.attr('aria-label', '<?php _e('Наступний слайд','esotericism'); ?>');
                     }
                 });
-            });
+            }
         </script>
     <?php else:; ?>
         <?php _e('No products found', 'esotericism'); ?>

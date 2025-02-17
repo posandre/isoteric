@@ -109,9 +109,13 @@
 
     del{
       order: 2;
+      
+      text-decoration: none;
 
       bdi {
         font-size: var(--wp--preset--font-size--small);
+        text-decoration: line-through;
+
         opacity: 0.5;
       }
     }
