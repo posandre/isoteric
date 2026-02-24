@@ -3130,6 +3130,19 @@ footer,
   }
 }
 
+@media (max-width: 420px) {
+  .editor-styles-wrapper .product-col--content > .dark-panel > .wp-block-group,
+  .woocommerce .product .page__wrapper .product-col--content > .dark-panel > .wp-block-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
+
 @media (min-width: 1145px) and (max-width: 1460px) {
   .header-section .wp-block-navigation__container .wp-block-social-links {
     display: none;
