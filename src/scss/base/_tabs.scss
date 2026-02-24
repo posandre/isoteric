@@ -1,9 +1,9 @@
 .gutena-tabs-block .gutena-tabs-tab {
   .gutena-tab {
     &-title {
-      background-color: transparent;
+      background-color: transparent !important;
 
-      color: var(--wp--preset--color--base-2);
+      color: var(--wp--preset--color--base-2) !important;
 
       &:before {
         content: "";

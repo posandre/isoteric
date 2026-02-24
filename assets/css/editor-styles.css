@@ -294,8 +294,8 @@ blockquote p {
 }
 
 .gutena-tabs-block .gutena-tabs-tab .gutena-tab-title {
-  background-color: transparent;
-  color: var(--wp--preset--color--base-2);
+  background-color: transparent !important;
+  color: var(--wp--preset--color--base-2) !important;
 }
 
 .gutena-tabs-block .gutena-tabs-tab .gutena-tab-title:before {
@@ -492,13 +492,13 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
 .section-courses .gutena-tabs-tab,
 .is-layout-flow > .section-courses .gutena-tabs-tab,
 .editor-styles-wrapper .is-layout-flow > .section-courses .gutena-tabs-tab {
-  padding: 0 0 0 16%;
+  padding: 0 0 0 16% !important;
 }
 
 .section-courses > .gutena-tabs-content > .gutena-tab-block,
 .is-layout-flow > .section-courses > .gutena-tabs-content > .gutena-tab-block,
 .editor-styles-wrapper .is-layout-flow > .section-courses > .gutena-tabs-content > .gutena-tab-block {
-  background: transparent;
+  background: transparent !important;
 }
 
 .section-courses .wc-block-grid__products,
@@ -817,6 +817,13 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
   color: transparent;
   width: 100%;
   height: 100%;
+}
+
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .product-card .wp-block-button__link,
+.editor-styles-wrapper .product-card .wp-block-button__link,
+.wc-block-grid__products .wc-block-grid__product .product-card .wp-block-button__link,
+.product-card .wp-block-button__link {
+  display: none !important;
 }
 
 .editor-styles-wrapper li.block-editor-block-list__layout .product-card {
@@ -1512,6 +1519,10 @@ body.editor-styles-wrapper .wp-block-query-pagination.block-editor-block-list__l
   height: -moz-fit-content;
   height: fit-content;
   z-index: 2;
+}
+
+.wc-block-price-slider .wc-block-components-price-slider__label {
+  display: none !important;
 }
 
 /** Parts */
